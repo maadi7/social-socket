@@ -1,4 +1,4 @@
-const io = require("socket.io")(8900, {
+const io = require("socket.io")("https://social-socket.onrender.com", {
   cors: {
     origin: "https://isocial.onrender.com",
   },
